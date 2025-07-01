@@ -55,7 +55,7 @@ function Hero() {
       <div className="text-center text-white">
         <h2 className="text-4xl text-blue-500 md:text-6xl font-bold animate-bounce">Hi, I'm KRISHNAKANTH</h2>
         <p className="mt-4 text-white text-lg md:text-2xl">MERN Stack Developer</p>
-        <p className="mt-4 text-white text-lg md:text-2xl">Data Analyst & Statstics</p>
+        <p className="mt-4 text-white text-lg md:text-2xl">Data Analyst & Statistics</p>
         <a
           href="#projects"
           className="mt-8 inline-block bg-blue-500 px-6 py-3 rounded-lg transition-transform duration-300 transform hover:scale-105"
