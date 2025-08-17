@@ -22,7 +22,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="./src/assets/nav.png" // Change to your actual logo file path
+            src="/nav.png" // Change to your actual logo file path
             alt="Logo"
             className="w-12 h-12 rounded-full border-2 border-white mr-4" // Added margin to separate it from the name
           />
@@ -63,7 +63,7 @@ function Hero() {
           See My Work
         </a>
       </div>
-      <img src="/src/assets/profile.jpeg" alt="Your Name" className="w-1/2 md:w-1/4 h-auto rounded-lg shadow-lg" />
+      <img src="/profile.jpeg" alt="Your Name" className="w-1/2 md:w-1/4 h-auto rounded-lg shadow-lg" />
     </section>
   );
 }
@@ -85,12 +85,12 @@ function About() {
 
 function Skills() {
   const skills = [
-    { name: 'React', logo: './src/assets/react.svg' },
-    { name: 'Node.js', logo: './src/assets/node.svg' },
-    { name: 'Express', logo: './src/assets/express.png' },
-    { name: 'MongoDB', logo: 'https://github.com/Krish63825/React-Portfolio/blob/main/src/assets/mongodb.svg' },
-    { name: 'TailwindCSS', logo: './src/assets/tailwind.svg' },
-    { name: 'JavaScript', logo: './src/assets/javascript.svg' },
+    { name: 'React', logo: '/react.svg' },
+    { name: 'Node.js', logo: '/node.svg' },
+    { name: 'Express', logo: '/express.png' },
+    { name: 'MongoDB', logo: '/mongodb.svg' },
+    { name: 'TailwindCSS', logo: '/tailwind.svg' },
+    { name: 'JavaScript', logo: '/javascript.svg' },
   ];
 
   return (
@@ -185,7 +185,7 @@ function Contact() {
         </form>
         <div className="text-center">
           <a
-            href="src/assets/resume.pdf"  // Change to your actual resume file path
+            href="/resume.pdf"  // Change to your actual resume file path
             download
             className="inline-block bg-green-500 text-white py-3 px-6 rounded-lg transition-transform duration-300 transform hover:scale-105"
           >
