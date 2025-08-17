@@ -88,7 +88,7 @@ function Skills() {
     { name: 'React', logo: './src/assets/react.svg' },
     { name: 'Node.js', logo: './src/assets/node.svg' },
     { name: 'Express', logo: './src/assets/express.png' },
-    { name: 'MongoDB', logo: './src/assets/mongodb.svg' },
+    { name: 'MongoDB', logo: 'src/assets/mongodb.svg' },
     { name: 'TailwindCSS', logo: './src/assets/tailwind.svg' },
     { name: 'JavaScript', logo: './src/assets/javascript.svg' },
   ];
